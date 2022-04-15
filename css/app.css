@@ -238,10 +238,6 @@
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 3px 3px 0px 0px;
-    
-    padding-left: 12px;
-    padding-right: 12px;
-
 }
 
 .detalhes-title-text {
@@ -253,6 +249,7 @@
 
     display: flex;
     align-items: center;
+    padding: 12px;
 
     color: #4E4E4E;
 }
@@ -285,6 +282,7 @@
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 3px 3px 0px 0px;
+    margin-bottom: 0px;
 }
 
 .resumo-title-text {
@@ -293,9 +291,9 @@
     font-size: 20px;
     line-height: 25px;
     /* identical to box height, or 125% */
-
     display: flex;
     align-items: center;
+    padding: 12px;
 
     color: #4E4E4E;
 }
@@ -309,14 +307,13 @@
 
     color: #5C5C5C;
 
-
     /* Inside auto layout */
-
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
     margin: 0px 0px;
+    padding: 12px;
 }
 
 #resumo-click-more {
@@ -352,6 +349,9 @@
     font-size: 20px;
     line-height: 25px;
     /* identical to box height, or 125% */
+    display: flex;
+    align-items: center;
+    padding: 12px;
 
     color: #4E4E4E;
 }
@@ -364,6 +364,7 @@
 
     display: flex;
     justify-content: center;
+    padding: 12px;
 
     color: #ED7839;
 }
@@ -374,6 +375,7 @@
     font-size: 14px;
     line-height: 19px;
     text-align: center;
+    padding: 12px;
 
     color: #595959;
 }
@@ -381,11 +383,12 @@
 #discus-logo {
     display: flex;
     justify-content: center;
+    padding-bottom: 24px;
 }
 
 #discus-logo-meio {
-    padding-left: 24px;
-    padding-right: 24px;
+    margin-left: 48px;
+    margin-right: 48px;
 }
 
 #discus-criar-btn {
@@ -461,6 +464,16 @@
     line-height: 19px;
     /* identical to box height */
 
-
     color: #757575;
+}
+
+.pergunta-like-btn {
+    background: #ED7839;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+}
+
+.pergunta-config-btn {
+    background-color: white;
+    color: #ED7839;
 }
