@@ -78,9 +78,9 @@
           </div>
           <div class="cell medium-4 lateral">
             <div style="display: flex; justify-content: right;">
-              <button type="button" class="button dl-btn"><i class="material-icons">download</i> <span class="download-txt">Download</span></button>
-              <button type="button" class="button fav-btn"><i class="material-icons">star</i></button>
-              <button type="button" class="button doi-btn"><span class='doi'></span></button>
+              <button class="button dl-btn"><i class="material-icons">download</i> <span class="download-txt">Download</span></button>
+              <button class="button fav-btn"><i class="material-icons">star</i></button>
+              <button class="button doi-btn"><span class='doi'></span></button>
             </div>
             <p class="citacao"><a style="color: #ED7839;">COMO CITAR ESSE TRABALHO?</a></p>
             <div class="detalhes-all sticky">
@@ -133,8 +133,13 @@
               <img src="images/discussoes3.png" alt="Debate de ideias" style="width:60px; height: 60px;">
             </div>
             <p id="discus-text">Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
-            <a id="discus-criar-btn" class="button"><i class="material-icons">add</i> <span id="discus-criar-text">criar tópico</span></a>
+            <div style="display: flex; justify-content: center">
+              <hr>
+              <button id="discus-criar-btn" class="button"><i class="material-icons">add</i> <span id="discus-criar-text">criar tópico</span></button>
+              <hr>
+            </div>
             
+
             <div class="pergunta-panel">
               <p class="pergunta-titulo">Assunto da pergunta aparece aqui</p>
               <p class="pergunta-autor">Carlos Henrique Santos</p>
@@ -158,6 +163,7 @@
                 <p class="pergunta-interacao">1 resposta</p>
               </div>
             </div>
+
           </section>
         </div>
   
