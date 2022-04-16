@@ -427,6 +427,8 @@ hr {
     box-sizing: border-box;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    margin: 16px;
+    padding: 12px;
 }
 
 .pergunta-titulo {
@@ -435,6 +437,7 @@ hr {
     font-size: 16px;
     line-height: 20px;
     /* identical to box height */
+    margin-bottom: 6px;
 
     color: #ED7839;
 }
@@ -467,15 +470,32 @@ hr {
     /* identical to box height */
 
     color: #757575;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    height: 30px;
 }
 
 .pergunta-like-btn {
     background: #ED7839;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
     border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 38px;
+
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .pergunta-config-btn {
-    background-color: white;
     color: #ED7839;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 40px;
+
 }
