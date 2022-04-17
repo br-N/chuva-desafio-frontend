@@ -65,3 +65,15 @@ function favoritar() {
         btnFav.style.backgroundColor = "#ED7839";
     }
 }
+
+var clicks = 1
+function gostar() {
+    clicks += 1;
+    document.getElementById("likes").innerHTML = clicks + "&nbsp;likes";
+}
+
+var clicks2 = 1
+function gostar2() {
+    clicks2 += 1;
+    document.getElementById("likes2").innerHTML = clicks2 + "&nbsp;likes";
+}
