@@ -167,14 +167,21 @@
     height: 36px;
     background-color: #ED7839;
     border-radius: 4px;
+
     display: flex;
     align-items: center;
+
+    transition-duration: 0.3s;
+}
+#lat-dl-btn:hover {
+    background-color: #7c2503;
 }
 
 #lat-fav-btn {
     height: 36px;
-    background-color: #ED7839;
+    /*background-color: #ED7839;*/
     border-radius: 4px;
+
     display: flex;
     align-items: center;
 
@@ -186,8 +193,14 @@
     height: 36px;
     background-color: #ED7839;
     border-radius: 4px;
+
     display: flex;
     align-items: center;
+
+    transition-duration: 0.3s;
+}
+#lat-doi-btn:hover {
+    background-color: #7c2503;
 }
 
 #lat-dl-txt {
@@ -429,11 +442,6 @@ hr {
 
 /* ### CRIAÇÃO TÓPICO ### */
 
-#topic-forms {
-    padding: 16px;
-    display: none;
-}
-
 #topic-text {
     font-style: normal;
     font-weight: 400;
@@ -536,10 +544,6 @@ hr {
 
 
 /* ### APÓS ENVIAR TÓPICO ### */
-
-#topic-envio {
-    display: none;
-}
 
 #envio-title {
     font-style: normal;
@@ -697,6 +701,11 @@ hr {
 
     margin-left: 12px;
     margin-right: 12px;
+
+    transition-duration: 0.3s;
+}
+.pergunta-like-btn:hover {
+    background-color: #d81010;
 }
 
 .pergunta-config-btn {

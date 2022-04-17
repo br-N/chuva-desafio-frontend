@@ -5,7 +5,7 @@ function verMais() {
     var moreText = document.getElementById("resumo-more");
     var btnMoreText = document.getElementById("resumo-click-more");
 
-    if (dots.style.display === "none"){
+    if (dots.style.display == "none"){
         dots.style.display = "inline";
         btnMoreText.innerHTML = "ver mais";
         moreText.style.display = "none";
@@ -20,7 +20,7 @@ function criarTopico() {
     var antes = document.getElementById("discus-default");
     var criarTopico = document.getElementById("topic-forms");
 
-    if(criarTopico.style.display = "none"){
+    if(criarTopico.style.display == "none"){
         criarTopico.style.display = "block";
         antes.style.display = "none";
     }else{
@@ -33,7 +33,7 @@ function enviarTopico() {
     var antes = document.getElementById("topic-forms");
     var feedback = document.getElementById("topic-envio");
 
-    if(feedback.style.display = "none"){
+    if(feedback.style.display == "none"){
         feedback.style.display = "block";
         antes.style.display = "none";
     }else{
@@ -46,11 +46,22 @@ function outroTopico() {
     var antes = document.getElementById("topic-envio");
     var outroTopico = document.getElementById("topic-forms");
 
-    if(outroTopico.style.display = "none"){
+    if(outroTopico.style.display == "none"){
         outroTopico.style.display = "block";
         antes.style.display = "none";
     }else{
         outroTopico.style.display = "none";
         antes.style.display = "block";
+    }
+}
+
+function favoritar() {
+    var btnFav = document.getElementById("lat-fav-btn");
+    console.log(btnFav.style.backgroundColor);
+
+    if(btnFav.style.backgroundColor == "rgb(237, 120, 57)"){
+        btnFav.style.backgroundColor = "#7c2503";
+    }else{
+        btnFav.style.backgroundColor = "#ED7839";
     }
 }

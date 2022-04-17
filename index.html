@@ -106,7 +106,7 @@
             
             <div class="grid-x" style="display: flex; justify-content: right;">
               <a id="lat-dl-btn" class="button"><i class="material-icons">download</i><span id="lat-dl-txt">Download</span></a>
-              <button type="button" id="lat-fav-btn" class="button"><i class="material-icons">star</i></button>
+              <button type="button" onclick="favoritar()" id="lat-fav-btn" class="button" style="background-color: #ED7839;"><i class="material-icons">star</i></button>
               <a id="lat-doi-btn" class="button"><span id='lat-doi-icon'></span></a>
             </div>
             
@@ -185,7 +185,7 @@
 
             </div>
 
-            <div id="topic-forms">
+            <div id="topic-forms" style="display: none; padding: 16px;">
 
               <p id="topic-text">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
               
@@ -209,7 +209,7 @@
 
             </div>
 
-            <div id="topic-envio">
+            <div id="topic-envio" style="display: none">
 
               <span id="envio-title">Seu tópico foi enviado com sucesso! :D</span>
               <p id="envio-text">Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</p>
@@ -239,7 +239,7 @@
               
               <div class="grid-x">
                 <a class="clear pergunta-config-btn"><i class="material-icons">menu</i></a>
-                <button type="button" class="button pergunta-like-btn"><i class="material-icons">favorite</i></button>
+                <a class="button pergunta-like-btn"><i class="material-icons">favorite</i></a>
                 <p class="pergunta-interacao">1 like</p>
                 <a class="pergunta-interacao">1 resposta</a>
               </div>
@@ -254,7 +254,7 @@
               
               <div class="grid-x">
                 <a class="clear pergunta-config-btn"><i class="material-icons">menu</i></a>
-                <button type="button" class="button pergunta-like-btn"><i class="material-icons">favorite</i></button>
+                <a class="button pergunta-like-btn"><i class="material-icons">favorite</i></a>
                 <p class="pergunta-interacao">1 like</p>
                 <a class="pergunta-interacao">1 resposta</a>
               </div>
