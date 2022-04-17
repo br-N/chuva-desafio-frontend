@@ -92,11 +92,13 @@
     align-items: center;
     justify-content: center;
 
+    margin-left: 16px;
     margin-top: 18px;
     height: 36px;
+    width: 92px;
 
     color: #333333;
-    transition-duration: 0.4s;
+    transition-duration: 0.3s;
 }
 
 #header-language-btn:hover {
@@ -176,8 +178,9 @@
     border-radius: 4px;
     display: flex;
     align-items: center;
-    margin-left: 4px;
-    margin-right: 4px;
+
+    margin-left: 6px;
+    margin-right: 6px;
 }
 
 #lat-doi-btn {
@@ -219,7 +222,6 @@
 
     text-align: right;
     letter-spacing: 0.05em;
-    padding-top: 6px;
 
     color: #ED7839;
 }
@@ -234,9 +236,8 @@
     box-sizing: border-box;
     border-radius: 3px;
     
+    margin-left: 6px;
     height: 409px;
-    width: 242px;
-    margin-left: auto;
     overflow: auto;
 }
 

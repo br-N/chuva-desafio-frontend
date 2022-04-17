@@ -47,7 +47,7 @@
       <div class="title-bar hide-for-large" style="background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);">
         
         <div class="title-bar-left">
-          <button class="menu-icon" data-toggle="menu"></button>
+          <button type="button" class="menu-icon" data-toggle="menu"></button>
           <span class="title-bar-title">SCALA 2019</span>
         </div>
 
@@ -67,7 +67,7 @@
             </div>
 
             <div class="cell medium-2">
-              <button id="header-language-btn" class="dropdown clear tiny button"><i class="material-icons">language</i>PT-BR</button>
+              <button type="button" id="header-language-btn" class="dropdown clear tiny button"><i class="material-icons">language</i>PT-BR</button>
             </div>
 
             <div class="cell medium-2">
@@ -102,12 +102,12 @@
           
           </div>
 
-          <div class="cell medium-3" style="padding: 12px;">
+          <div class="cell medium-3" style="padding-top: 12px;">
             
-            <div style="display: flex; justify-content: right;">
-              <button id="lat-dl-btn" class="button"><i class="material-icons">download</i><span id="lat-dl-txt">Download</span></button>
-              <button id="lat-fav-btn" class="button"><i class="material-icons">star</i></button>
-              <button id="lat-doi-btn" class="button"><span id='lat-doi-icon'></span></button>
+            <div class="grid-x" style="display: flex; justify-content: right;">
+              <a id="lat-dl-btn" class="button"><i class="material-icons">download</i><span id="lat-dl-txt">Download</span></a>
+              <button type="button" id="lat-fav-btn" class="button"><i class="material-icons">star</i></button>
+              <a id="lat-doi-btn" class="button"><span id='lat-doi-icon'></span></a>
             </div>
             
             <p id="lat-citacao"><a style="color: #ED7839;">COMO CITAR ESSE TRABALHO?</a></p>
@@ -179,7 +179,7 @@
               
               <div style="display: flex; justify-content: center">
                 <hr style="margin-left: 16px;">
-                <button onclick="criarTopico()" id="discus-criar-btn" class="button"><i class="material-icons">add</i> <span id="discus-criar-text">criar tópico</span></button>
+                <button onclick="criarTopico()" type="button" id="discus-criar-btn" class="button"><i class="material-icons">add</i> <span id="discus-criar-text">criar tópico</span></button>
                 <hr style="margin-right: 16px;">
               </div>
 
@@ -200,9 +200,9 @@
               </label>
 
               <div id="topic-bar" class="grid-x" style="display: flex; justify-content: right;">
-                <button id="topic-bold" class="clear button"><i class="material-icons">format_bold</i></button>
-                <button id="topic-italic" class="clear button"><i class="material-icons">format_italic</i></button>
-                <button onclick="enviarTopico()" id="topic-btn" class="button"><span id="topic-btn-text">Enviar</span></button>
+                <button type="button" id="topic-bold" class="clear button"><i class="material-icons">format_bold</i></button>
+                <button type="button" id="topic-italic" class="clear button"><i class="material-icons">format_italic</i></button>
+                <button onclick="enviarTopico()" id="topic-btn" class="submit button"><span id="topic-btn-text">Enviar</span></button>
               </div>
 
               <hr>
@@ -219,7 +219,7 @@
 
               <div style="display: flex; justify-content: center">
                 <hr style="margin-left: 16px;">
-                <button onclick="outroTopico()" id="envio-outro-btn" class="button"><span id="envio-outro-btn-text">criar novo tópico</span></button>
+                <button onclick="outroTopico()" type="button" id="envio-outro-btn" class="button"><span id="envio-outro-btn-text">criar novo tópico</span></button>
                 <hr style="margin-right: 16px;">
               </div>
 
@@ -239,7 +239,7 @@
               
               <div class="grid-x">
                 <a class="clear pergunta-config-btn"><i class="material-icons">menu</i></a>
-                <button class="button pergunta-like-btn"><i class="material-icons">favorite</i></button>
+                <button type="button" class="button pergunta-like-btn"><i class="material-icons">favorite</i></button>
                 <p class="pergunta-interacao">1 like</p>
                 <a class="pergunta-interacao">1 resposta</a>
               </div>
@@ -254,7 +254,7 @@
               
               <div class="grid-x">
                 <a class="clear pergunta-config-btn"><i class="material-icons">menu</i></a>
-                <button class="button pergunta-like-btn"><i class="material-icons">favorite</i></button>
+                <button type="button" class="button pergunta-like-btn"><i class="material-icons">favorite</i></button>
                 <p class="pergunta-interacao">1 like</p>
                 <a class="pergunta-interacao">1 resposta</a>
               </div>
