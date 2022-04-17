@@ -20,11 +20,11 @@
 
   <body>
     
-    <div class="off-canvas position-left reveal-for-large menu-painel" id="menu" data-off-canvas>
+    <div id="menu" class="off-canvas position-left reveal-for-large menu-painel" data-off-canvas>
       
       <nav class="grid-y cell auto">
         
-        <p class="scala">SCALA 2019</p>
+        <p id="menu-slaca">SCALA 2019</p>
         
         <img src="images/scala.png" alt="scala_logo" style="padding: 6px;">
 
@@ -47,7 +47,7 @@
       <div class="title-bar hide-for-large" style="background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);">
         
         <div class="title-bar-left">
-          <button class="menu-icon" type="button" data-toggle="menu"></button>
+          <button class="menu-icon" data-toggle="menu"></button>
           <span class="title-bar-title">SCALA 2019</span>
         </div>
 
@@ -56,29 +56,29 @@
 
       <header style="background: #FDF1EB">
 
-        <nav class="grid-container full" >
+        <nav>
           
-          <div class="grid-x grid-padding-x ">
+          <div class="grid-x">
             
-            <div class="cell medium-7">
-              <p class="header-1">Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
-              <p class="header-2">Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</p>
-              <p class="header-3">ISSN: 1234-5678</p>
+            <div class="cell medium-7" style="padding-left: 16px;">
+              <p id="header-text1">Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
+              <p id="header-text2">Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</p>
+              <p id="header-text3">ISSN: 1234-5678</p>
             </div>
 
             <div class="cell medium-2">
-              <button class="dropdown clear tiny button language-btn"><i class="material-icons">language</i>   PT-BR</button>
+              <button id="header-language-btn" class="dropdown clear tiny button"><i class="material-icons">language</i>PT-BR</button>
             </div>
 
             <div class="cell medium-2">
-              <p class="bem-vindo">Bem-vindo!</p>
-              <p class="email">alguem12@galoascience.com</p>
+              <p id="header-bemvindo">Bem-vindo!</p>
+              <p id="header-email">alguem12@galoascience.com</p>
             </div>
 
-            <div class="cell medium-1 usuario">
+            <div id="header-usuario" class="cell medium-1">
               <a>
                 <img class="thumbnail" src="images/user.png" alt="Usuario" style="border-radius: 50%;">
-                <span class="badge alert" style="position: absolute; right: 16px;">2</span>
+                <span class="badge alert" style="position: absolute; right: 8px;">2</span>
               </a>
             </div>
           
@@ -93,30 +93,30 @@
         
         <div class="grid-x">
           
-          <div class="cell medium-8">
+          <div class="cell medium-9">
             
-            <p class="titulo">Análise sensorial de preparações funcionais desenvolvidas para escolares 
+            <p id="video-titulo">Análise sensorial de preparações funcionais desenvolvidas para escolares 
             entre 09 e 15 anos, do município de Campinas/SP</p>
             
-            <img class="video-overlay" src="images/video.png" alt="Video: Análise sensorial de preparações funcionais...">
+            <img id="video-overlay" src="images/video.png" alt="Video: Análise sensorial de preparações funcionais...">
           
           </div>
 
-          <div class="cell medium-4 lateral">
+          <div class="cell medium-3" style="padding: 12px;">
             
             <div style="display: flex; justify-content: right;">
-              <button class="button dl-btn"><i class="material-icons">download</i> <span class="download-txt">Download</span></button>
-              <button class="button fav-btn"><i class="material-icons">star</i></button>
-              <button class="button doi-btn"><span class='doi'></span></button>
+              <button id="lat-dl-btn" class="button"><i class="material-icons">download</i><span id="lat-dl-txt">Download</span></button>
+              <button id="lat-fav-btn" class="button"><i class="material-icons">star</i></button>
+              <button id="lat-doi-btn" class="button"><span id='lat-doi-icon'></span></button>
             </div>
             
-            <p class="citacao"><a style="color: #ED7839;">COMO CITAR ESSE TRABALHO?</a></p>
+            <p id="lat-citacao"><a style="color: #ED7839;">COMO CITAR ESSE TRABALHO?</a></p>
             
-            <div class="detalhes-all sticky">
+            <div id="detalhes-all" class="sticky">
 
               <p class="detalhes-title detalhes-title-text">Destaques</p>
 
-              <p class="detalhes-text">
+              <p id="detalhes-text">
                 Tipo de Apresentação: <b>Pôster</b><br>
                 Eixo temático: <b>Alimentação e saúde (AS)</b><br>
                 Palavras-chaves: <b>Alimentos funcionais, alimentação escolar.</b><br>
@@ -144,10 +144,10 @@
 
         <div class="grid-y">
 
-          <section class="resumo-all">
+          <section id="resumo-all">
             
             <p class="resumo-title-bar resumo-title-text">Resumo</p>
-            <p class="resumo-text">
+            <p id="resumo-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec finibus nisi tellus, ut viverra lorem vestibulum ut. Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien<span id="dots">...</span><span id="resumo-more">scelerisque, ac gravida eros vestibulum.
             <br><br>Fusce vitae luctus dui. Donec id euismod mauris, in volutpat urna. Proin dapibus consequat feugiat. Proin dictum justo arcu, quis vestibulum augue lacinia quis. Sed dignissim dui nulla, ut faucibus mauris sodales id. Aliquam erat volutpat. Maecenas dolor enim, tincidunt id elit non, suscipit interdum turpis. Etiam finibus urna libero, eget interdum eros volutpat ullamcorper. Pellentesque et pretium lorem. Aenean interdum quis diam ac porttitor. Cras nec ipsum pulvinar, pharetra libero non, ornare enim. Etiam in laoreet odio.
             <br><br>Nam eget tristique elit, at fermentum tellus. Mauris scelerisque ligula id eleifend feugiat. Donec eleifend vehicula sem nec dapibus. Integer scelerisque neque dui, in lacinia erat molestie eu. Phasellus maximus dui eget lacus porta tempor. Ut ex nibh, dignissim quis purus semper, efficitur facilisis turpis. Praesent blandit elementum ultricies. Aliquam sit amet enim sit amet nulla pulvinar lobortis consectetur non odio. Phasellus at lacus hendrerit, vulputate nisi sit amet, viverra mauris. Etiam eu scelerisque orci. Quisque sagittis, mi vitae pharetra iaculis, orci elit eleifend massa, eu posuere mauris odio id odio. Morbi eu libero luctus, consectetur lorem vel, interdum sapien. Aenean in porta arcu. Maecenas eu maximus massa.

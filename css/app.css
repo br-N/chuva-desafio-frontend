@@ -2,37 +2,7 @@
 /* MENU ESQUERDA */
 /*###############*/
 
-.menu-painel {
-    background: #FFFFFF;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-}
-
-.menu-texto{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 19px;
-    /* identical to box height */
-    
-    color: #725C5C;
-}
-
-.menu-ativo {
-    background: #FDF1EB;
-    margin-right: 6px;
-}
-
-.menu-ativo-ret {
-    background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
-    width: 5px;
-    padding: 0px;
-}
-
-.menu-hr {
-    margin: 0px;
-}
-
-.scala {
+#menu-slaca {
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -46,13 +16,41 @@
     padding: 18px;
 }
 
+.menu-painel {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
 
-/*###############*/
-/* MENU SUPERIOR */
-/*###############*/
+.menu-texto{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    
+    color: #725C5C;
+}
 
-/* Anais do Simpósio Latino Americano de Ciências de Alimentos */
-.header-1 {
+.menu-ativo {
+    background-color: #FDF1EB;
+    margin-right: 6px;
+}
+
+.menu-ativo-ret {
+    background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
+    width: 5px;
+    padding: 0px;
+}
+
+.menu-hr {
+    margin: 0px;
+}
+
+
+/*###########*/
+/* CABEÇALHO */
+/*###########*/
+
+#header-text1 {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -63,21 +61,19 @@
     color: #725C5C;
 }
 
-/* Anais do 13º Simpósio Latino Americano de Ciência de Alimentos */
-.header-2 {
+#header-text2 {
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
-    /* identical to box height */
+
     margin-top: 0px;
     margin-bottom: 0px;
 
     color: #725C5C;
 }
 
-/* ISSN: 1234-5678 */
-.header-3 {
+#header-text3 {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -88,24 +84,32 @@
     color: #725C5C;
     }
 
-/* language button */
-.language-btn {
+#header-language-btn {
     border: 1px solid #CCCCCC;
     box-sizing: border-box;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 24px;
-    height: 24px;
+
+    margin-top: 18px;
+    height: 36px;
+
+    color: #333333;
+    transition-duration: 0.4s;
 }
 
-/* Bem vindo! */
-.bem-vindo{
+#header-language-btn:hover {
+    background-color: #ba9e7c;
+    color: white;
+  }
+
+#header-bemvindo{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    /* identical to box height */
+    
     text-align: right;
     padding-top: 18px;
     margin-bottom: 0px;
@@ -113,36 +117,33 @@
     color: #333333;
 }
 
-/* alguem12@galoascience.com */
-.email {
+#header-email {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
+
     text-align: right;
 
     color: #333333;
 }
 
-.usuario {
+#header-usuario {
     display: flex;
-    position: relative;
     justify-content: right;
-    padding-top: 4px;
+    padding-top: 8px;
 }
 
 
-/*################*/
-/* TITULO E VIDEO */
-/*################*/
+/*#######*/
+/* VIDEO */
+/*#######*/
 
-.titulo {
+#video-titulo {
     font-style: normal;
     font-weight: 900;
     font-size: 20px;
     line-height: 25px;
-    /* or 125% */
 
     letter-spacing: 0.05em;
     padding-top: 16px;
@@ -151,37 +152,27 @@
     color: #ED7839;
 }
 
-.video-overlay{
-    width: 783px;
-    height: 439px;
-    left: 2px;
-    top: 73px;
-
-    background: rgba(141, 53, 6, 0.5);
+#video-overlay{
     border-radius: 3px;
+    padding-right: 12px;
 }
+
 
 /*#################*/
 /* LATERAL DIREITA */
 /*#################*/
 
-.lateral {
-    padding: 12px;
-}
-
-/* download button */
-.dl-btn {
+#lat-dl-btn {
     height: 36px;
-    background: #ED7839;
+    background-color: #ED7839;
     border-radius: 4px;
     display: flex;
     align-items: center;
 }
 
-/* favorite button */
-.fav-btn {
+#lat-fav-btn {
     height: 36px;
-    background: #ED7839;
+    background-color: #ED7839;
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -189,30 +180,26 @@
     margin-right: 4px;
 }
 
-/* doi button */
-.doi-btn {
+#lat-doi-btn {
     height: 36px;
-    background: #ED7839;
+    background-color: #ED7839;
     border-radius: 4px;
     display: flex;
     align-items: center;
 }
 
-/* download text */
-.download-txt {
+#lat-dl-txt {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
 
     color: #FFFFFF;
     border-radius: 4px;
 }
 
-/* doi */
-.doi {
-    background: #ED7839;
+#lat-doi-icon {
+    background-color: #ED7839;
     border-radius: 4px;
 
     display: block;
@@ -224,13 +211,11 @@
     border-radius: 50%;
 }
 
-/* citação */
-.citacao {
+#lat-citacao {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 25px;
-    /* identical to box height, or 179% */
 
     text-align: right;
     letter-spacing: 0.05em;
@@ -240,12 +225,11 @@
 }
 
 
-
 /*##########*/
 /* DETALHES */
 /*##########*/
 
-.detalhes-all{
+#detalhes-all{
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 3px;
@@ -264,7 +248,7 @@
     display: flex;
     position: sticky;
     
-    background: #FDF1EB;
+    background-color: #FDF1EB;
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 3px 3px 0px 0px;
@@ -275,7 +259,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 25px;
-    /* identical to box height, or 125% */
 
     display: flex;
     align-items: center;
@@ -284,7 +267,7 @@
     color: #4E4E4E;
 }
 
-.detalhes-text {
+#detalhes-text {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -301,14 +284,14 @@
 /* RESUMO */
 /*########*/
 
-.resumo-all {
+#resumo-all {
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 3px;
 }
 
 .resumo-title-bar {
-    background: #FDF1EB;
+    background-color: #FDF1EB;
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 3px 3px 0px 0px;
@@ -320,7 +303,7 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 25px;
-    /* identical to box height, or 125% */
+
     display: flex;
     align-items: center;
     padding: 12px;
@@ -328,7 +311,7 @@
     color: #4E4E4E;
 }
 
-.resumo-text {
+#resumo-text {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -337,7 +320,6 @@
 
     color: #5C5C5C;
 
-    /* Inside auto layout */
     flex: none;
     order: 0;
     align-self: stretch;
@@ -367,7 +349,7 @@
 }
 
 #discus-title-bar {
-    background: #FDF1EB;
+    background-color: #FDF1EB;
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 3px 3px 0px 0px;
@@ -378,7 +360,7 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 25px;
-    /* identical to box height, or 125% */
+
     display: flex;
     align-items: center;
     padding: 12px;
@@ -435,7 +417,6 @@
     font-weight: 700;
     font-size: 15px;
     line-height: 16px;
-    /* identical to box height, or 107% */
 
     color: #FFFFFF;
 }
@@ -459,7 +440,7 @@ hr {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    /* identical to box height */
+
     text-align: center;
 
     color: #5C5C5C;
@@ -470,14 +451,14 @@ hr {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
+
     display: flex;
 
     color: #ED7839;
 }
 
 #topic-assunto-form {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border: 1px solid #CCCCCC;
     box-sizing: border-box;
     border-radius: 3px;
@@ -489,7 +470,6 @@ hr {
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    /* identical to box height */
 
     color: #4D4D4D;
 }
@@ -499,14 +479,14 @@ hr {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
+
     display: flex;
 
     color: #ED7839;
 }
 
 #topic-conteudo-form {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border: 1px solid #CCCCCC;
     box-sizing: border-box;
     border-radius: 3px;
@@ -514,7 +494,7 @@ hr {
 }
 
 #topic-bar {
-    background: #EAF1F2;
+    background-color: #EAF1F2;
     border: 1px solid #CCCCCC;
     box-sizing: border-box;
     border-radius: 0px 0px 4px 4px;
@@ -536,7 +516,6 @@ hr {
     font-weight: 700;
     font-size: 15px;
     line-height: 16px;
-    /* identical to box height, or 107% */
 
     color: #FFFFFF;
 }
@@ -580,7 +559,6 @@ hr {
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    /* identical to box height */
 
     text-align: center;
     padding: 16px;
@@ -592,7 +570,6 @@ hr {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    /* identical to box height, or 19px */
     text-decoration-line: underline;
     
     margin-bottom: 36px;
@@ -613,7 +590,6 @@ hr {
     font-weight: 700;
     font-size: 15px;
     line-height: 16px;
-    /* identical to box height, or 107% */
 
     text-align: center;
 
@@ -635,7 +611,7 @@ hr {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height */
+
     padding: 16px;
 
     color: #707070;
@@ -647,7 +623,6 @@ hr {
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    /* identical to box height */
 
     text-decoration-line: underline;
 
@@ -659,7 +634,7 @@ hr {
 /*############*/
 
 .pergunta-panel {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     border: 1px solid #E7E7E7;
     box-sizing: border-box;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
@@ -673,7 +648,7 @@ hr {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height */
+
     margin-bottom: 6px;
 
     color: #ED7839;
@@ -684,7 +659,6 @@ hr {
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
 
     color: #5C5C5C;
 }
@@ -704,7 +678,6 @@ hr {
     font-weight: 350;
     font-size: 14px;
     line-height: 19px;
-    /* identical to box height */
 
     color: #757575;
     display: flex;
@@ -714,7 +687,7 @@ hr {
 }
 
 .pergunta-like-btn {
-    background: #ED7839;
+    background-color: #ED7839;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
     border-radius: 2px;
     display: flex;
