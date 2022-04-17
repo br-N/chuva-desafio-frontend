@@ -156,7 +156,6 @@
 
 #video-overlay{
     border-radius: 3px;
-    padding-right: 12px;
 }
 
 
@@ -222,6 +221,7 @@
 
     text-align: right;
     letter-spacing: 0.05em;
+    margin-bottom: 6px;
 
     color: #ED7839;
 }
@@ -236,14 +236,12 @@
     box-sizing: border-box;
     border-radius: 3px;
     
-    margin-left: 6px;
-    height: 409px;
+    height: 439px;
     overflow: auto;
 }
 
 .detalhes-title{
     height: 55px;
-    left: 816px;
     top: 0px;
 
     display: flex;
