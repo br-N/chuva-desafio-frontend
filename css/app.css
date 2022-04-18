@@ -248,18 +248,9 @@
     border: 1px solid #ECECEC;
     box-sizing: border-box;
     border-radius: 3px;
-    
-    height: 460px;
-    overflow: auto;
 }
 
 .detalhes-title{
-    height: 55px;
-    top: 0px;
-
-    display: flex;
-    position: sticky;
-    
     background-color: #FDF1EB;
     border: 1px solid #ECECEC;
     box-sizing: border-box;
@@ -283,10 +274,13 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 22px;
 
     letter-spacing: 0.02em;
     padding: 12px;
+    
+    height: 400px;
+    overflow: auto;
 
     color: #5C5C5C;
 }
