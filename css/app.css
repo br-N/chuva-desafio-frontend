@@ -659,7 +659,7 @@ hr {
 
 .pergunta-autor {
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 12px;
     line-height: 15px;
 
@@ -719,3 +719,27 @@ hr {
 
 /* ### RESPOSTAS DA PERGUNTA ### */
 
+.resposta-autor {
+    background: #F8F8F8;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+.resposta-comum {
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+.resposta-autor-coautor {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 0px;
+    display: flex;
+
+    color: #ED7839;
+}

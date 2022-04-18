@@ -72,8 +72,18 @@ function gostar() {
     document.getElementById("likes").innerHTML = clicks + "&nbsp;likes";
 }
 
-var clicks2 = 1
+var clicks2 = 4
 function gostar2() {
     clicks2 += 1;
     document.getElementById("likes2").innerHTML = clicks2 + "&nbsp;likes";
+}
+
+function verRespostas() {
+    var respostas = document.getElementById("pergunta-respostas");
+
+    if(respostas.style.display == "none"){
+        respostas.style.display = "block";
+    }else{
+        respostas.style.display = "none";
+    }
 }
