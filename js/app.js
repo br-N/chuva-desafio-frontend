@@ -57,7 +57,6 @@ function outroTopico() {
 
 function favoritar() {
     var btnFav = document.getElementById("lat-fav-btn");
-    console.log(btnFav.style.backgroundColor);
 
     if(btnFav.style.backgroundColor == "rgb(237, 120, 57)"){
         btnFav.style.backgroundColor = "#7c2503";
