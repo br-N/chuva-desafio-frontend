@@ -283,7 +283,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 20px;
 
     letter-spacing: 0.02em;
     padding: 12px;
@@ -742,4 +742,25 @@ hr {
     display: flex;
 
     color: #ED7839;
+}
+
+
+/* ##### SCROLL ##### */
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #BFBFBF;
+    border-radius: 20px;
+    border: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
 }
